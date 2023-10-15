@@ -35,11 +35,11 @@ onSearchChange = (event)=>{
      <div className='tc'>
       <h1 className='f1'>ROBOFRIENDS</h1>
       <SearchBox searchChange={this.onSearchChange} />
-      <Scroll>
+     
        <ErrorBoundry>
          <CardList robots={filterRobots}/>
        </ErrorBoundry>
-      </Scroll>
+
      </div>
     );
   }
